@@ -25,14 +25,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/responsive.css",
-              "src/assets/elegant-icons.css"
+              "src/assets/css/responsive.css",
+              "src/assets/css/slicknav.css",
+              "src/assets/fonts/line-icons.css"
             ],
             "scripts": [
-              "src/assets/javascript/jquery.js",
-              "src/assets/javascript/jquery.min.js",
-              "src/assets/javascript/agenda.js",
-              "src/assets/javascript/main.js"
+              "src/assets/javascript/main.js",
+              "src/assets/javascript/jquery.nav.js",
+              "src/assets/javascript/agenda.js"
             ]
           },
           "configurations": {
@@ -96,14 +96,14 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/responsive.css",
-              "src/assets/elegant-icons.css"
+              "src/assets/css/responsive.css",
+              "src/assets/css/slicknav.css",
+              "src/assets/fonts/line-icons.css"
             ],
             "scripts": [
-              "src/assets/javascript/jquery.js",
-              "src/assets/javascript/jquery.min.js",
-              "src/assets/javascript/agenda.js",
-              "src/assets/javascript/main.js"
+              "src/assets/javascript/main.js",
+              "src/assets/javascript/jquery.nav.js",
+              "src/assets/javascript/agenda.js"
             ]
           }
         },

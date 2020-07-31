@@ -27,7 +27,7 @@
     height: 70vh;
   }
 
-  #parceiros .spnsors-logo img {
+  #Parceiros .parceiros-logo img {
     width: 80%;
   }
 }
@@ -66,7 +66,7 @@
     font-size: 14px;
   }
 
-  #parceiros .spnsors-logo img {
+  #Parceiros .parceiros-logo img {
     width: 80%;
   }
   .padding-none:nth-child(1) {
@@ -123,7 +123,7 @@
     font-size: 12px;
   }
 
-  #parceiros .spnsors-logo {
+  #Parceiros .parceiros-logo {
     padding: 30px;
   }
   .padding-none:nth-child(1) {
@@ -201,7 +201,7 @@
     font-size: 11px;
   }
 
-  #parceiros .spnsors-logo {
+  #Parceiros .parceiros-logo {
     margin-bottom: 15px;
   }
 
@@ -214,7 +214,7 @@
   .thumb-left img {
     width: 60%;
   }
-  #parceiros .spnsors-logo img {
+  #Parceiros .parceiros-logo img {
     width: 80%;
   }
   .footer-area h3 {

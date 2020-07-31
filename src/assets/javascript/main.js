@@ -21,14 +21,14 @@
     /* ==========================================================================
        countdown timer
        ========================================================================== */
-    $("#clock").countdown("2020/08/01", function (event) {
+    $("#clock").countdown("2020/08/10", function (event) {
       var $this = jQuery(this).html(
         event.strftime(
           "" +
           '<div class="time-entry days"><span>%-D</span> Dias</div> ' +
           '<div class="time-entry hours"><span>%H</span> Horas</div> ' +
           '<div class="time-entry minutes"><span>%M</span> Minutos</div> ' +
-          '<div class="time-entry seconds"><span>%S</span> Secondos</div> '
+          '<div class="time-entry seconds"><span>%S</span> Segundos</div> '
         )
       );
     });
@@ -87,5 +87,35 @@
       );
       return false;
     });
+
+    /* filter courses
+      ========================================================*/
+
+    $(document).ready(function () {
+
+      $(".filter-button").click(function () {
+        var value = $(this).attr('data-filter');
+
+        if (value == "all") {
+          //$('.filter').removeClass('hidden');
+          $('.filter').show('1000');
+        }
+        else {
+          //            $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+          //            $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+          $(".filter").not('.' + value).hide('3000');
+          $('.filter').filter('.' + value).show('3000');
+
+        }
+      });
+
+      if ($(".filter-button").removeClass("active")) {
+        $(this).removeClass("active");
+      }
+      $(this).addClass("active");
+
+    });
   });
+
+
 })(jQuery);

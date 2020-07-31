@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { ParceirosComponent } from './parceiros/parceiros.component';
 import { CursosComponent } from './cursos/cursos.component';
+import { FilterProgComponent } from './filter-prog/filter-prog.component';
 
 
 
@@ -25,6 +26,7 @@ import { CursosComponent } from './cursos/cursos.component';
     FooterComponent,
     ParceirosComponent,
     CursosComponent,
+    FilterProgComponent,
 
 
   ],
